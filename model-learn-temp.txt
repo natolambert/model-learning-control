@@ -1,0 +1,518 @@
+% This file was created with JabRef 2.10.
+% Encoding: UTF-8
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% RL %%%%%%% %%%% %%% %%%%% %%%%%%%% %%%%%%%%% %%%%%%%%%% %%%%%%% %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Deep modeling
+@inproceedings{williams2017information,
+  title={Information theoretic MPC for model-based reinforcement learning},
+  author={Williams, Grady and Wagener, Nolan and Goldfain, Brian and Drews, Paul and Rehg, James M and Boots, Byron and Theodorou, Evangelos A},
+  booktitle={2017 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={1714--1721},
+  year={2017},
+  organization={IEEE}
+}
+
+@inproceedings{punjani2015deep,
+  title={Deep learning helicopter dynamics models},
+  author={Punjani, Ali and Abbeel, Pieter},
+  booktitle={2015 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={3223--3230},
+  year={2015},
+  organization={IEEE}
+}
+
+@article{nagabandi2019deep,
+  title={Deep Dynamics Models for Learning Dexterous Manipulation},
+  author={Nagabandi, Anusha and Konoglie, Kurt and Levine, Sergey and Kumar, Vikash},
+  journal={arXiv preprint arXiv:1909.11652},
+  year={2019}
+}
+
+@inproceedings{nagabandi2018learning,
+  title={Learning image-conditioned dynamics models for control of underactuated legged millirobots},
+  author={Nagabandi, Anusha and Yang, Guangzhao and Asmar, Thomas and Pandya, Ravi and Kahn, Gregory and Levine, Sergey and Fearing, Ronald S},
+  booktitle={2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={4606--4613},
+  year={2018},
+  organization={IEEE}
+}
+
+@article{lambert2019low,
+  title={Low-Level Control of a Quadrotor With Deep Model-Based Reinforcement Learning},
+  author={Lambert, Nathan O and Drew, Daniel S and Yaconelli, Joseph and Levine, Sergey and Calandra, Roberto and Pister, Kristofer SJ},
+  journal={IEEE Robotics and Automation Letters},
+  volume={4},
+  number={4},
+  pages={4224--4230},
+  year={2019},
+  publisher={IEEE}
+}
+
+% NN residual
+
+@article{zeng2019tossingbot,
+  title={Tossingbot: Learning to throw arbitrary objects with residual physics},
+  author={Zeng, Andy and Song, Shuran and Lee, Johnny and Rodriguez, Alberto and Funkhouser, Thomas},
+  journal={arXiv preprint arXiv:1903.11239},
+  year={2019}
+}
+
+@inproceedings{shi2019neural,
+  title={Neural lander: Stable drone landing control using learned dynamics},
+  author={Shi, Guanya and Shi, Xichen and O’Connell, Michael and Yu, Rose and Azizzadenesheli, Kamyar and Anandkumar, Animashree and Yue, Yisong and Chung, Soon-Jo},
+  booktitle={2019 International Conference on Robotics and Automation (ICRA)},
+  pages={9784--9790},
+  year={2019},
+  organization={IEEE}
+}
+
+@inproceedings{bansal2016learning,
+  title={Learning quadrotor dynamics using neural network for flight control},
+  author={Bansal, Somil and Akametalu, Anayo K and Jiang, Frank J and Laine, Forrest and Tomlin, Claire J},
+  booktitle={2016 IEEE 55th Conference on Decision and Control (CDC)},
+  pages={4653--4660},
+  year={2016},
+  organization={IEEE}
+}
+
+% pure mbrl
+@article{wang2019exploring,
+  title={Exploring model-based planning with policy networks},
+  author={Wang, Tingwu and Ba, Jimmy},
+  journal={arXiv preprint arXiv:1906.08649},
+  year={2019}
+}
+@InProceedings{chua2018deep,
+  author    = {Chua, Kurtland and Calandra, Roberto and McAllister, Rowan and Levine, Sergey},
+  title     = {Deep reinforcement learning in a handful of trials using probabilistic dynamics models},
+  booktitle = {Neural Information Processing Systems},
+  year      = {2018},
+  pages     = {4754--4765},
+}
+
+@inproceedings{janner2019trust,
+  title={When to trust your model: Model-based policy optimization},
+  author={Janner, Michael and Fu, Justin and Zhang, Marvin and Levine, Sergey},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={12498--12509},
+  year={2019}
+}
+
+@InProceedings{Deisenroth2011PILCO,
+  author    = {Marc P. Deisenroth and Carl E. Rasmussen},
+  title     = {{PILCO: A Model-Based and Data-Efficient Approach to Policy Search}},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year      = {2011},
+  pages     = {465--472},
+  abstract  = {In this paper, we introduce PILCO, a practical, data-efficient model-based policy search method. PILCO reduces model bias, one of the key problems of model-based reinforcement learning, in a principled way. By learning a probabilistic dynamics model and explicitly incorporating model uncertainty into long-term planning, PILCO can cope with very little data and facilitates learning from scratch in only a few trials. Policy evaluation is performed in closed form using state-of-the-art approximate inference. Furthermore, policy gradients are computed analytically for policy improvement. We report unprecedented learning efficiency on challenging and high-dimensional control tasks.},
+  keywords  = {Model-based Reinforcement Learning, Reinforcement Learning},
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% GP Models %%%%%%% %%%% %%% %%%%% %%%%%%%% %%%%%%%%% %%%%%%%%%% %%%%%%% %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{berkenkamp2016safe,
+  title={Safe controller optimization for quadrotors with Gaussian processes},
+  author={Berkenkamp, Felix and Schoellig, Angela P and Krause, Andreas},
+  booktitle={2016 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={491--496},
+  year={2016},
+  organization={IEEE}
+}
+
+@inproceedings{bansal2017goal,
+  title={Goal-driven dynamics learning via Bayesian optimization},
+  author={Bansal, Somil and Calandra, Roberto and Xiao, Ted and Levine, Sergey and Tomiin, Claire J},
+  booktitle={2017 IEEE 56th Annual Conference on Decision and Control (CDC)},
+  pages={5168--5173},
+  year={2017},
+  organization={IEEE}
+}
+
+@inproceedings{deisenroth2012toward,
+  title={Toward fast policy search for learning legged locomotion},
+  author={Deisenroth, Marc Peter and Calandra, Roberto and Seyfarth, Andr{\'e} and Peters, Jan},
+  booktitle={2012 IEEE/RSJ International Conference on Intelligent Robots and Systems},
+  pages={1787--1792},
+  year={2012},
+  organization={IEEE}
+}
+
+
+% GP model boat
+@article{cui2019reinforcement,
+  title={Reinforcement learning ship autopilot: Sample-efficient and model predictive control-based approach},
+  author={Cui, Yunduan and Osaki, Shigeki and Matsubara, Takamitsu},
+  journal={arXiv preprint arXiv:1901.07905},
+  year={2019}
+}
+
+% disturbance GP model 1
+@inproceedings{takano2019periodic,
+  title={Periodic Trajectory Planning and Robust Output Zeroing Control for Underactuated Bipedal Robots with Predicted Disturbances},
+  author={Takano, Rin and Chang, Junho and Yamakita, Masaki},
+  booktitle={2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={1415--1420},
+  year={2019},
+  organization={IEEE}
+}
+
+% disturbance GP model 2
+@article{carron2019data,
+  title={Data-driven model predictive control for trajectory tracking with a robotic arm},
+  author={Carron, Andrea and Arcari, Elena and Wermelinger, Martin and Hewing, Lukas and Hutter, Marco and Zeilinger, Melanie N},
+  journal={IEEE Robotics and Automation Letters},
+  volume={4},
+  number={4},
+  pages={3758--3765},
+  year={2019},
+  publisher={IEEE}
+}
+
+% disturbance GP model 3
+@article{kabzan2019learning,
+  title={Learning-based model predictive control for autonomous racing},
+  author={Kabzan, Juraj and Hewing, Lukas and Liniger, Alexander and Zeilinger, Melanie N},
+  journal={IEEE Robotics and Automation Letters},
+  volume={4},
+  number={4},
+  pages={3363--3370},
+  year={2019},
+  publisher={IEEE}
+}
+
+% GP residual 
+@article{beckers2019closed,
+  title={Closed-loop model selection for kernel-based models using Bayesian optimization},
+  author={Beckers, Thomas and Bansal, Somil and Tomlin, Claire J and Hirche, Sandra},
+  journal={arXiv preprint arXiv:1909.05699},
+  year={2019}
+}
+
+@inproceedings{koller2018learning,
+  title={Learning-based model predictive control for safe exploration},
+  author={Koller, Torsten and Berkenkamp, Felix and Turchetta, Matteo and Krause, Andreas},
+  booktitle={2018 IEEE Conference on Decision and Control (CDC)},
+  pages={6059--6066},
+  year={2018},
+  organization={IEEE}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Iterative learning %%%%%%% %%%% %%% %%%%% %%%%%%%% %%%%%%%%% %%%%%%%%%% %%%%%%% %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+% from low level control paper
+@inproceedings{sferrazza2017trajectory,
+  title={Trajectory tracking and iterative learning on an unmanned aerial vehicle using parametrized model predictive control},
+  author={Sferrazza, Carmelo and Muehlebach, Michael and D'Andrea, Raffaello},
+  booktitle={2017 IEEE 56th Annual Conference on Decision and Control (CDC)},
+  pages={5186--5192},
+  year={2017},
+  organization={IEEE}
+}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% OTHER Modeling %%%%%%% %%%% %%% %%%%% %%%%%%%% %%%%%%%%% %%%%%%%%%% %%%%%%% %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{nair2019modeling,
+  title={Modeling of dynamical systems via successive graph approximations},
+  author={Nair, Siddharth H and Bujarbaruah, Monimoy and Borrelli, Francesco},
+  journal={arXiv preprint arXiv:1910.03719},
+  year={2019}
+}
+
+@article{rezaei2019cascaded,
+  title={Cascaded Gaussian Processes for Data-efficient Robot Dynamics Learning},
+  author={Rezaei-Shoshtari, Sahand and Meger, David and Sharf, Inna},
+  journal={arXiv preprint arXiv:1910.02291},
+  year={2019}
+}
+
+% from low level control paper, KF model
+@article{schoellig2012optimization,
+  title={Optimization-based iterative learning for precise quadrocopter trajectory tracking},
+  author={Schoellig, Angela P and Mueller, Fabian L and D’Andrea, Raffaello},
+  journal={Autonomous Robots},
+  volume={33},
+  number={1-2},
+  pages={103--127},
+  year={2012},
+  publisher={Springer}
+}
+
+% linear model updates
+@inproceedings{bouffard2012learning,
+  title={Learning-based model predictive control on a quadrotor: Onboard implementation and experimental results},
+  author={Bouffard, Patrick and Aswani, Anil and Tomlin, Claire},
+  booktitle={2012 IEEE International Conference on Robotics and Automation},
+  pages={279--284},
+  year={2012},
+  organization={IEEE}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% System Identification %%%%%%% %%%% %%% %%%%% %%%%%%%% %%%%%%%%% %%%%%%%%%% %%%%%%% %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@article{yu2017preparing,
+  title={Preparing for the unknown: Learning a universal policy with online system identification},
+  author={Yu, Wenhao and Tan, Jie and Liu, C Karen and Turk, Greg},
+  journal={arXiv preprint arXiv:1702.02453},
+  year={2017}
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TO SORT %%%%%%% %%%% %%% %%%%% %%%%%%%% %%%%%%%%% %%%%%%%%%% %%%%%%% %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Kumar
+@article{chen2019large,
+  title={Large scale model predictive control with neural networks and primal active sets},
+  author={Chen, Steven W and Wang, Tianyu and Atanasov, Nikolay and Kumar, Vijay and Morari, Manfred},
+  journal={arXiv preprint arXiv:1910.10835},
+  year={2019}
+}
+
+% From ANusha's papers motivating deep models
+@article{yip2014model,
+  title={Model-less feedback control of continuum manipulators in constrained environments},
+  author={Yip, Michael C and Camarillo, David B},
+  journal={IEEE Transactions on Robotics},
+  volume={30},
+  number={4},
+  pages={880--889},
+  year={2014},
+  publisher={IEEE}
+}
+
+@inproceedings{lioutikov2014sample,
+  title={Sample-based informationl-theoretic stochastic optimal control},
+  author={Lioutikov, Rudolf and Paraschos, Alexandros and Peters, Jan and Neumann, Gerhard},
+  booktitle={2014 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={3896--3902},
+  year={2014},
+  organization={IEEE}
+}
+
+@article{ko2009gp,
+  title={GP-BayesFilters: Bayesian filtering using Gaussian process prediction and observation models},
+  author={Ko, Jonathan and Fox, Dieter},
+  journal={Autonomous Robots},
+  volume={27},
+  number={1},
+  pages={75--90},
+  year={2009},
+  publisher={Springer}
+}
+
+
+@article{ratliff2016doomed,
+  title={Doomed: Direct online optimization of modeling errors in dynamics},
+  author={Ratliff, Nathan and Meier, Franziska and Kappler, Daniel and Schaal, Stefan},
+  journal={Big data},
+  volume={4},
+  number={4},
+  pages={253--268},
+  year={2016},
+  publisher={Mary Ann Liebert, Inc. 140 Huguenot Street, 3rd Floor New Rochelle, NY 10801 USA}
+}
+
+%% 1 March 2020
+
+@inproceedings{dearden2005learning,
+  title={Learning forward models for robots},
+  author={Dearden, Anthony and Demiris, Yiannis and Kaelbling, LP and Saffotti, A},
+  year={2005},
+  organization={IJCAI-INT JOINT CONF ARTIF INTELL}
+}
+
+@inproceedings{kubus2018learning,
+  title={Learning forward and inverse kinematics maps efficiently},
+  author={Kubus, Daniel and Rayyes, Rania and Steil, Jochen J},
+  booktitle={2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={5133--5140},
+  year={2018},
+  organization={IEEE}
+}
+
+@article{Thuruthel_2017,
+	doi = {10.1088/1748-3190/aa839f},
+	url = {https://doi.org/10.1088%2F1748-3190%2Faa839f},
+	year = 2017,
+	month = {oct},
+	publisher = {{IOP} Publishing},
+	volume = {12},
+	number = {6},
+	pages = {066003},
+	author = {Thomas George Thuruthel and Egidio Falotico and Federico Renda and Cecilia Laschi},
+	title = {Learning dynamic models for open loop predictive control of soft robotic manipulators},
+	journal = {Bioinspiration {\&} Biomimetics}
+}
+
+@article{thuruthel2018model,
+  title={Model-based reinforcement learning for closed-loop dynamic control of soft robotic manipulators},
+  author={Thuruthel, Thomas George and Falotico, Egidio and Renda, Federico and Laschi, Cecilia},
+  journal={IEEE Transactions on Robotics},
+  volume={35},
+  number={1},
+  pages={124--134},
+  year={2018},
+  publisher={IEEE}
+}
+
+@article{hwangbo2019learning,
+  title={Learning agile and dynamic motor skills for legged robots},
+  author={Hwangbo, Jemin and Lee, Joonho and Dosovitskiy, Alexey and Bellicoso, Dario and Tsounis, Vassilios and Koltun, Vladlen and Hutter, Marco},
+  journal={Science Robotics},
+  volume={4},
+  number={26},
+  pages={eaau5872},
+  year={2019},
+  publisher={Science Robotics}
+}
+
+@article{buchler2018control,
+  title={Control of musculoskeletal systems using learned dynamics models},
+  author={B{\"u}chler, Dieter and Calandra, Roberto and Sch{\"o}lkopf, Bernhard and Peters, Jan},
+  journal={IEEE Robotics and Automation Letters},
+  volume={3},
+  number={4},
+  pages={3161--3168},
+  year={2018},
+  publisher={IEEE}
+}
+
+@inproceedings{venkatraman2016improved,
+  title={Improved learning of dynamics models for control},
+  author={Venkatraman, Arun and Capobianco, Roberto and Pinto, Lerrel and Hebert, Martial and Nardi, Daniele and Bagnell, J Andrew},
+  booktitle={International Symposium on Experimental Robotics},
+  pages={703--713},
+  year={2016},
+  organization={Springer}
+}
+
+%% linear model for one shot learning
+@inproceedings{fu2016one,
+  title={One-shot learning of manipulation skills with online dynamics adaptation and neural network priors},
+  author={Fu, Justin and Levine, Sergey and Abbeel, Pieter},
+  booktitle={2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={4019--4026},
+  year={2016},
+  organization={IEEE}
+}
+
+@article{li2015trajectory,
+  title={Trajectory-tracking control of mobile robot systems incorporating neural-dynamic optimized model predictive approach},
+  author={Li, Zhijun and Deng, Jun and Lu, Renquan and Xu, Yong and Bai, Jianjun and Su, Chun-Yi},
+  journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+  volume={46},
+  number={6},
+  pages={740--749},
+  year={2015},
+  publisher={IEEE}
+}
+
+% residual data-driven
+@inproceedings{saveriano2017data,
+  title={Data-efficient control policy search using residual dynamics learning},
+  author={Saveriano, Matteo and Yin, Yuchao and Falco, Pietro and Lee, Dongheui},
+  booktitle={2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={4709--4715},
+  year={2017},
+  organization={IEEE}
+}
+
+@inproceedings{levine2014learning,
+  title={Learning neural network policies with guided policy search under unknown dynamics},
+  author={Levine, Sergey and Abbeel, Pieter},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={1071--1079},
+  year={2014}
+}
+
+@inproceedings{yamaguchi2016neural,
+  title={Neural networks and differential dynamic programming for reinforcement learning problems},
+  author={Yamaguchi, Akihiko and Atkeson, Christopher G},
+  booktitle={2016 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={5434--5441},
+  year={2016},
+  organization={IEEE}
+}
+
+@inproceedings{polydoros2016reservoir,
+  title={A reservoir computing approach for learning forward dynamics of industrial manipulators},
+  author={Polydoros, Athanasios S and Nalpantidis, Lazaros},
+  booktitle={2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={612--618},
+  year={2016},
+  organization={IEEE}
+}
+
+
+
+% grid based %%%%
+@inproceedings{shaker2009vision,
+  title={Vision-based reinforcement learning using approximate policy iteration},
+  author={Shaker, Marwan R and Yue, Shigang and Duckett, Tom},
+  booktitle={2009 International Conference on Advanced Robotics},
+  pages={1--6},
+  year={2009},
+  organization={IEEE}
+}
+
+@article{touzet1997neural,
+  title={Neural reinforcement learning for behaviour synthesis},
+  author={Touzet, Claude F},
+  journal={Robotics and Autonomous Systems},
+  volume={22},
+  number={3-4},
+  pages={251--281},
+  year={1997},
+  publisher={Elsevier}
+}
+
+@inproceedings{boone1997efficient,
+  title={Efficient reinforcement learning: Model-based acrobot control},
+  author={Boone, Gary},
+  booktitle={Proceedings of International Conference on Robotics and Automation},
+  volume={1},
+  pages={229--234},
+  year={1997},
+  organization={IEEE}
+}
+% END grid based %%%%
+
+@inproceedings{kocijan2004gaussian,
+  title={Gaussian process model based predictive control},
+  author={Kocijan, Ju{\v{s}} and Murray-Smith, Roderick and Rasmussen, Carl Edward and Girard, Agathe},
+  booktitle={Proceedings of the 2004 American control conference},
+  volume={3},
+  pages={2214--2219},
+  year={2004},
+  organization={IEEE}
+}
+
+@article{cao2017gaussian,
+  title={Gaussian process model predictive control of an unmanned quadrotor},
+  author={Cao, Gang and Lai, Edmund M-K and Alam, Fakhrul},
+  journal={Journal of Intelligent \& Robotic Systems},
+  volume={88},
+  number={1},
+  pages={147--162},
+  year={2017},
+  publisher={Springer}
+}
