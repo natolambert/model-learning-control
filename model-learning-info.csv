@@ -1,50 +1,50 @@
-﻿paper, description,simulated,model,model_detail,control,state_dim,image,action_dim,  freq ,offline,year,comment,scope
-touzet1997neural,,,Count,,,,,,,,1997,,
-boone1997efficient,,,Count,,,,,,,,1997,,
-dearden2005learning,Modeling only,,Bayesian Networks,,,6,,4,,,2005,Learning simple robot dynamics with bayesian networks (gripper),
-ko2009gp,Modeling only based on Bayes filter,,GP,,FALSE,,,,,,2009,Using a GP model to improve on linear robotic state estimators (EKF),TRUE
-shaker2009vision,,,Count,,,,,,,,2009,,
-  Deisenroth2011PILCO       ," Cartpole, unicycle balance ",,GP,,Linear policy,12,,2,       ,TRUE,2011,policy-search on simulated and cartpole tasks,
-deisenroth2012toward,"Bidel robot, PILCO framework",,GP,,Linear policy,25,,2,,TRUE,2012,policy-search for gait on a high-dimensional walking robot ,
-schoellig2012optimization,,,,,,,,,,,2012,uses kalman to model quadrotor disturbance accurately (not model learning really),TRUE
-bouffard2012learning,"Adjustments to linear model, quadrotor ball catch",,Lin,,LBMPC,10,,4,40,FALSE,2012,learning based MPC for ball catching on a quadrotor,
-levine2014learning,"Local models, simulated control",TRUE,Lin,,nn policy; guided policy search,18,,6,100,FALSE,2012,Variety of simulated tasks accomplished by learning local models for policy search,
-yip2014model,model-free control,,,,,,,,,,2014,,TRUE
-lioutikov2014sample,4 joint robotic arm (squash),,Lin,,Stochastic Optimal Control,8,,4,15,FALSE,2014,Learns linear models for stochastic control that provides bounds on performance,
-punjani2015deep,Modeling a helicopter with a NN,,NN,,FALSE,12,,4,100,,2015,,
-li2015trajectory,learns with a NN to solve a QP problem,,,,/,/,,/,/,/,2015,,TRUE
-  bansal2016learning        , quadrotor trajectory ,,NN,res,LQR,12,,4,100,TRUE,2016,,
-ratliff2016doomed,inverse dynamics something,,,,,,,,,,2016,,TRUE
-venkatraman2016improved,manipulation tasks,,GP,,LQR,14,,7,,TRUE,2016,uses demonstrations to learn a dynamics model and controller (inspired by Dagger),
-fu2016one,manipulation tasks,,NN,lin,,32,,8,20,FALSE,2016,uses a NN prior with online linear-gaussian adaptation to solve manipulation tasks,
-yamaguchi2016neural,"pouring tasks in simulation and PR2, NN",,NN,,stochastic DDP,47,,,,,2016,,
-polydoros2016reservoir,Advanced NN for predicting arms,,NN,,FALSE,,,,120,,2016,,
-  williams2017information   , Rapid car trajectories ,,NN,,sampling-mpc,19,,4,40,FALSE,2017,Information theoretic MPC on rapid car task; state space = imu 9 + gps 6 + wheels 4,
-bansal2017goal,BO of dynamics for control performance,,Lin,,LQR,12,,4,,TRUE,2017,,
-sferrazza2017trajectory,,,,,,,,,100,,2017,,TRUE
-yu2017preparing,online system identification of parameters for a universal policy,,,,,,,,,,2017,,TRUE
-Thuruthel_2017,soft robots RNN ,,NN,,SQP,24,,3,20,,2017,,
-saveriano2017data,robot arm swingup,,GP,res,GP param; expected cost sim rollout,2,,1,500,TRUE,2017,residual dynamics PILCO,
-  nagabandi2018learning     , hexapod trajectories ,,NN,,sampling-mpc,24,128x128,6,10,,2018,vision conditioned sampling based MPC on hexapod,
-  koller2018learning        ,     ,,  ,,,,, ,  ,,2018,,
-chua2018deep,,TRUE,,,,,,,,,2018,,
-kubus2018learning,,,,,,,,,,,2018,,
-thuruthel2018model,,,,,,,,,,,2018,,
-buchler2018control,,,,,,,,,,,2018,,
-  nagabandi2019deep         , dextrous manipulation ,,NN,,sampling-mpc,40,280x180,24,10,,2019,mpc on dextrous hand task,
-  lambert2019low            , quadrotor attitude ,,NN,,sampling-mpc,48,,4,50,,2019,,
-  zeng2019tossingbot        , object tossing ,,NN,res,,,45×35×512,, ,,2019,,TRUE
-  shi2019neural             , quadrotor landing ,,NN,res,,12,,4, ,,2019,,
-  takano2019periodic        , bipedal locomotion    ,,GP,res,lyapunov,7,,4, ,,2019,models the disturbance of a bidepal robot with a GP,
-  carron2019data            , 7DOF Arm    ,,GP,res,nonlinear mpc,6,,6,20,,2019,,
-  kabzan2019learning        , Race car   ,,GP,res,mpc,5,,0,20,,2019,,
-  beckers2019closed         ,     ,,kernel?,,,3,,3,100,,2019,,
-wang2019exploring,     ,TRUE,  ,,,,,  ,,,2019,,
-janner2019trust,,TRUE,,,,,,,,,2019,,
-cui2019reinforcement,control a boat with MBRL,,GP,res,mpc,6,,2,0.25,,2019,,
-nair2019modeling,,,,,,,,,,,2019,,
-rezaei2019cascaded,,,,,,,,,,,2019,,
-chen2019large,,,,,,,,,,,2019,,TRUE
-hwangbo2019learning,,,,,,,,,,,2019,,TRUE
-kocijan2004gaussian,,,GP,,,,,,,,2004,,
-cao2017gaussian,GPMPC on quadrotor,,GP,,,,,,,,,,
+﻿paper, description,simulated,model,model_detail,control,control_detail,state_dim,image,action_dim,  freq ,offline,year,comment,scope
+touzet1997neural,,,Count,,,,,,,,,1997,,
+boone1997efficient,,,Count,,,,,,,,,1997,,
+dearden2005learning,Modeling only,,Bayesian Networks,,,,6,,4,,,2005,Learning simple robot dynamics with bayesian networks (gripper),
+ko2009gp,Modeling only based on Bayes filter,,GP,,FALSE,,,,,,,2009,Using a GP model to improve on linear robotic state estimators (EKF),TRUE
+shaker2009vision,,,Count,,,,,,,,,2009,,
+  Deisenroth2011PILCO       ," Cartpole, unicycle balance ",,GP,,Policy,linear,12,,2,       ,TRUE,2011,policy-search on simulated and cartpole tasks,
+deisenroth2012toward,"Bidel robot, PILCO framework",,GP,,Policy,linear,25,,2,,TRUE,2012,policy-search for gait on a high-dimensional walking robot ,
+schoellig2012optimization,,,,,,,,,,,,2012,uses kalman to model quadrotor disturbance accurately (not model learning really),TRUE
+bouffard2012learning,"Adjustments to linear model, quadrotor ball catch",,Lin,,MPC,learning based,10,,4,40,FALSE,2012,learning based MPC for ball catching on a quadrotor,
+levine2014learning,"Local models, simulated control",TRUE,Lin,,Policy,NN_GPD,18,,6,100,FALSE,2012,Variety of simulated tasks accomplished by learning local models for policy search,
+yip2014model,model-free control,,,,,,,,,,,2014,,TRUE
+lioutikov2014sample,4 joint robotic arm (squash),,Lin,,stoch_opt,,8,,4,15,FALSE,2014,Learns linear models for stochastic control that provides bounds on performance,
+punjani2015deep,Modeling a helicopter with a NN,,NN,,FALSE,,12,,4,100,,2015,,
+li2015trajectory,learns with a NN to solve a QP problem,,,,/,,/,,/,/,/,2015,,TRUE
+  bansal2016learning        , quadrotor trajectory ,,NN,res,LQR,,3,,4,100,TRUE,2016,,
+ratliff2016doomed,inverse dynamics something,,,,,,,,,,,2016,,TRUE
+venkatraman2016improved,manipulation tasks,,GP,,LQR,,14,,7,,TRUE,2016,uses demonstrations to learn a dynamics model and controller (inspired by Dagger),
+fu2016one,manipulation tasks,,NN,lin,,,32,,8,20,FALSE,2016,uses a NN prior with online linear-gaussian adaptation to solve manipulation tasks,
+yamaguchi2016neural,"pouring tasks in simulation and PR2, NN",,NN,,DDP,stochasic,47,,,,,2016,,
+polydoros2016reservoir,Advanced NN for predicting arms,,NN,,FALSE,,,,,120,,2016,,
+  williams2017information   , Rapid car trajectories ,,NN,,MPC,sampling,19,,4,40,FALSE,2017,Information theoretic MPC on rapid car task; state space = imu 9 + gps 6 + wheels 4,
+bansal2017goal,BO of dynamics for control performance,,Lin,,LQR,,12,,4,,TRUE,2017,,
+sferrazza2017trajectory,,,,,,,,,,100,,2017,,TRUE
+yu2017preparing,online system identification of parameters for a universal policy,,,,,,,,,,,2017,,TRUE
+Thuruthel_2017,soft robots RNN ,,NN,,SQP,,24,,3,20,,2017,,
+saveriano2017data,robot arm swingup,,GP,res,Policy,GP_cost,2,,1,500,TRUE,2017,residual dynamics PILCO,
+  nagabandi2018learning     , hexapod trajectories ,,NN,,MPC,sampling,24,128x128,6,10,,2018,vision conditioned sampling based MPC on hexapod,
+  koller2018learning        ,     ,,  ,,,,,, ,  ,,2018,,
+chua2018deep,PETS,TRUE,NN,,MPC,sampling,17,,6,,,2018,,
+kubus2018learning,,,,,,,,,,,,2018,,
+thuruthel2018model,,,,,,,,,,,,2018,,
+buchler2018control,,,,,,,,,,,,2018,,
+  nagabandi2019deep         , dextrous manipulation ,,NN,,MPC,sampling,40,280x180,24,10,,2019,mpc on dextrous hand task,
+  lambert2019low            , quadrotor attitude ,,NN,,MPC,sampling,48,,4,50,,2019,,
+  zeng2019tossingbot        , object tossing ,,NN,res,,,,45×35×512,, ,,2019,,TRUE
+  shi2019neural             , quadrotor landing ,,NN,res,Feedback,,12,,4, ,,2019,,
+  takano2019periodic        , bipedal locomotion    ,,GP,res,lyapunov,,7,,4, ,,2019,models the disturbance of a bidepal robot with a GP,
+  carron2019data            , 7DOF Arm    ,,GP,res,MPC,nonlinear,6,,6,20,,2019,,
+  kabzan2019learning        , Race car   ,,GP,res,MPC,sampling,5,,0,20,,2019,,
+  beckers2019closed         ,     ,,kernel?,,,,3,,3,100,,2019,,
+wang2019exploring,PETS + sampling NN,TRUE,NN,,MPC,sampling,17,,6,,,2019,,
+janner2019trust,SAC on PE,TRUE,NN,,Policy,sac,17,,6,,,2019,,
+cui2019reinforcement,control a boat with MBRL,,GP,res,MPC,,6,,2,0.25,,2019,,
+nair2019modeling,,,,,,,,,,,,2019,,
+rezaei2019cascaded,,,,,,,,,,,,2019,,
+chen2019large,,,,,,,,,,,,2019,,TRUE
+hwangbo2019learning,,,,,,,,,,,,2019,,TRUE
+kocijan2004gaussian,,,GP,,,,,,,,,2004,,
+cao2017gaussian,GPMPC on quadrotor,,GP,,,,,,,,,,,
